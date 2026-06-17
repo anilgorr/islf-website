@@ -1,0 +1,26 @@
+kind = "web"
+previewPath = "/"
+title = "ISLF - Indian Shipping and Logistics"
+version = "1.0.0"
+id = "artifacts/islf-website"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24710
+
+[services.development]
+run = "pnpm --filter @workspace/islf-website run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/islf-website", "run", "build" ]
+run = "pnpm --filter @workspace/islf-website run start"
+
+[services.env]
+PORT = "24710"
+BASE_PATH = "/"
