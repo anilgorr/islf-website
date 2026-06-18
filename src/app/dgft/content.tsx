@@ -85,7 +85,7 @@ export default function DGFTPage() {
               Directorate General of Foreign Trade (DGFT) expertise — from IEC registration to HQ-level policy representations. We are one of India's leading DGFT consultancy providers.
             </motion.p>
             <motion.div variants={fadeUp} className="mt-8 flex flex-wrap gap-4">
-              <Link href="/#contacts">
+              <Link href="/contacts">
                 <button className="bg-accent hover:bg-accent/90 text-white font-heading font-semibold text-sm uppercase tracking-widest px-8 py-3.5 transition-all group inline-flex items-center gap-3">
                   Get Expert Help <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </button>
@@ -210,7 +210,7 @@ export default function DGFTPage() {
               Our DGFT specialists handle everything from basic IEC registration to complex HQ-level policy matters. Get in touch today.
             </motion.p>
             <motion.div variants={fadeUp}>
-              <Link href="/#contacts">
+              <Link href="/contacts">
                 <button className="bg-white text-accent hover:bg-white/90 font-heading font-semibold text-sm uppercase tracking-widest px-10 py-4 transition-all">
                   Contact Our DGFT Team
                 </button>

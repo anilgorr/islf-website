@@ -258,7 +258,7 @@ export default function ServicesPage() {
               Our team of experts is ready to help with your specific logistics and trade compliance requirements.
             </motion.p>
             <motion.div variants={fadeUp}>
-              <Link href="/#contacts">
+              <Link href="/contacts">
                 <button className="bg-accent hover:bg-accent/90 text-white font-heading font-semibold text-sm uppercase tracking-widest px-10 py-4 transition-all duration-300">
                   Contact Us Today
                 </button>

@@ -217,7 +217,7 @@ export default function BlogPostContent({ slug }: { slug: string }) {
                 <p className="text-white/70 text-sm leading-relaxed mb-5">
                   ISLF's experts are ready to help with all your {post.category.toLowerCase()} requirements across India.
                 </p>
-                <a href="/#contacts" className="flex items-center justify-center gap-2 bg-accent hover:bg-accent/90 text-white font-bold text-xs uppercase tracking-widest px-5 py-3 mb-3 transition-colors w-full">
+                <a href="/contacts" className="flex items-center justify-center gap-2 bg-accent hover:bg-accent/90 text-white font-bold text-xs uppercase tracking-widest px-5 py-3 mb-3 transition-colors w-full">
                   Request a Consultation <ArrowRight className="w-3.5 h-3.5" />
                 </a>
                 <div className="space-y-2 pt-4 border-t border-white/10">
@@ -278,7 +278,7 @@ export default function BlogPostContent({ slug }: { slug: string }) {
               Contact ISLF's experts for personalised guidance on {post.title.split("|")[0].trim()}.
             </motion.p>
             <motion.div variants={fadeUp} className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="/#contacts" className="bg-accent hover:bg-accent/90 text-white font-bold text-xs uppercase tracking-widest px-8 py-4 transition-colors">
+              <a href="/contacts" className="bg-accent hover:bg-accent/90 text-white font-bold text-xs uppercase tracking-widest px-8 py-4 transition-colors">
                 Contact ISLF Today
               </a>
               <Link href="/blog" className="border border-white/20 hover:border-white text-white font-bold text-xs uppercase tracking-widest px-8 py-4 transition-colors">

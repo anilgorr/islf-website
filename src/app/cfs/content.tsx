@@ -120,7 +120,7 @@ export default function CFSPage() {
               </motion.div>
               <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} className="bg-primary p-6">
                 <p className="text-white font-bold text-sm mb-3">Planning a CFS?</p>
-                <Link href="/#contacts">
+                <Link href="/contacts">
                   <button className="w-full bg-accent hover:bg-accent/90 text-white font-bold text-xs uppercase tracking-widest py-3 transition-colors">Contact Us</button>
                 </Link>
               </motion.div>
@@ -135,7 +135,7 @@ export default function CFSPage() {
             <motion.h2 variants={fadeUp} className="font-heading font-semibold text-3xl md:text-4xl uppercase mb-4">CFS License & Compliance Experts</motion.h2>
             <motion.p variants={fadeUp} className="text-white/70 max-w-lg mx-auto mb-8">Contact ISLF for expert guidance on CFS setup, license procurement and ongoing statutory compliance.</motion.p>
             <motion.div variants={fadeUp}>
-              <Link href="/#contacts">
+              <Link href="/contacts">
                 <button className="bg-accent hover:bg-accent/90 text-white font-heading font-semibold text-sm uppercase tracking-widest px-10 py-4 transition-all group inline-flex items-center gap-3">
                   Get In Touch <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </button>

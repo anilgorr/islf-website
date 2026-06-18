@@ -123,7 +123,7 @@ export default function CustomsBrokingPage() {
                 <p className="text-white/80 text-sm">Authorised Economic Operator certification from CBEC, Ministry of Finance, Government of India</p>
               </div>
             </div>
-            <Link href="/#contacts">
+            <Link href="/contacts">
               <button className="bg-white text-accent hover:bg-white/90 font-bold text-xs uppercase tracking-widest px-8 py-3 transition-colors shrink-0">
                 Get Clearance Support
               </button>
@@ -216,7 +216,7 @@ export default function CustomsBrokingPage() {
             <motion.h2 variants={fadeUp} className="font-heading font-semibold text-3xl md:text-4xl uppercase mb-4">India's Trusted Customs Broker</motion.h2>
             <motion.p variants={fadeUp} className="text-white/80 max-w-lg mx-auto mb-8">AEO certified. Two decades of experience. Offices at Chennai, Tuticorin, Bengaluru and Gujarat.</motion.p>
             <motion.div variants={fadeUp}>
-              <Link href="/#contacts">
+              <Link href="/contacts">
                 <button className="bg-white text-accent hover:bg-white/90 font-heading font-semibold text-sm uppercase tracking-widest px-10 py-4 transition-all">
                   Request Clearance Support
                 </button>

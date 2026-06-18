@@ -170,7 +170,7 @@ export default function STPIPage() {
               </motion.div>
               <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} className="bg-primary p-6">
                 <p className="text-white font-bold text-sm mb-3">Need STPI guidance?</p>
-                <Link href="/#contacts">
+                <Link href="/contacts">
                   <button className="w-full bg-accent hover:bg-accent/90 text-white font-bold text-xs uppercase tracking-widest py-3 transition-colors">Contact Us</button>
                 </Link>
               </motion.div>
@@ -185,7 +185,7 @@ export default function STPIPage() {
             <motion.h2 variants={fadeUp} className="font-heading font-semibold text-3xl md:text-4xl uppercase mb-4">Your STPI/SEZ/EOU Partner</motion.h2>
             <motion.p variants={fadeUp} className="text-white/70 max-w-lg mx-auto mb-8">From registration to closure, ISLF handles all compliance for technology park units across India.</motion.p>
             <motion.div variants={fadeUp}>
-              <Link href="/#contacts">
+              <Link href="/contacts">
                 <button className="bg-accent hover:bg-accent/90 text-white font-heading font-semibold text-sm uppercase tracking-widest px-10 py-4 transition-all group inline-flex items-center gap-3">
                   Get Expert Guidance <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </button>

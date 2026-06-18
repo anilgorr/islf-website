@@ -209,7 +209,7 @@ export default function FreightForwardingPage() {
             <motion.h2 variants={fadeUp} className="font-heading font-semibold text-3xl md:text-4xl uppercase mb-4">Get a Freight Quote Today</motion.h2>
             <motion.p variants={fadeUp} className="text-white/80 max-w-lg mx-auto mb-8">Share your shipment details and our team will respond with a competitive, all-inclusive quote within 24 hours.</motion.p>
             <motion.div variants={fadeUp}>
-              <Link href="/#contacts">
+              <Link href="/contacts">
                 <button className="bg-white text-accent hover:bg-white/90 font-heading font-semibold text-sm uppercase tracking-widest px-10 py-4 transition-all">
                   Request a Quote
                 </button>

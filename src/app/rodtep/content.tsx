@@ -131,7 +131,7 @@ export default function RoDTEPPage() {
               <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} className="bg-accent p-6 text-white">
                 <p className="font-bold text-sm mb-1">Unclaimed RoDTEP?</p>
                 <p className="text-white/80 text-xs mb-3">Let ISLF review your exports and recover your entitled benefits.</p>
-                <Link href="/#contacts">
+                <Link href="/contacts">
                   <button className="w-full bg-white text-accent hover:bg-white/90 font-bold text-xs uppercase tracking-widest py-3 transition-colors">Contact Us</button>
                 </Link>
               </motion.div>
@@ -146,7 +146,7 @@ export default function RoDTEPPage() {
             <motion.h2 variants={fadeUp} className="font-heading font-semibold text-3xl md:text-4xl uppercase mb-4">Maximize Your Export Returns</motion.h2>
             <motion.p variants={fadeUp} className="text-white/70 max-w-lg mx-auto mb-8">Our RoDTEP experts help exporters across all sectors — textiles, engineering, chemicals, pharma and more — maximize their entitled benefits.</motion.p>
             <motion.div variants={fadeUp}>
-              <Link href="/#contacts">
+              <Link href="/contacts">
                 <button className="bg-accent hover:bg-accent/90 text-white font-heading font-semibold text-sm uppercase tracking-widest px-10 py-4 transition-all group inline-flex items-center gap-3">
                   Talk to RoDTEP Expert <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </button>

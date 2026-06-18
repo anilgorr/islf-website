@@ -208,7 +208,7 @@ export default function FAQPage() {
               Our experts are happy to answer any specific queries about your shipment, trade compliance or documentation requirements.
             </motion.p>
             <motion.div variants={fadeUp}>
-              <Link href="/#contacts">
+              <Link href="/contacts">
                 <button className="bg-accent hover:bg-accent/90 text-white font-heading font-semibold text-sm uppercase tracking-widest px-10 py-4 transition-all duration-300 group inline-flex items-center gap-3">
                   Contact Our Team <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </button>

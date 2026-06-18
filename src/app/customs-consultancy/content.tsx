@@ -148,7 +148,7 @@ export default function CustomsConsultancyPage() {
               <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} className="bg-primary p-6">
                 <p className="text-white font-bold text-sm mb-1">Received an SCN?</p>
                 <p className="text-white/70 text-xs mb-3">Don't delay. Time-bound responses are critical in customs disputes.</p>
-                <Link href="/#contacts">
+                <Link href="/contacts">
                   <button className="w-full bg-accent hover:bg-accent/90 text-white font-bold text-xs uppercase tracking-widest py-3 transition-colors">Contact Us Now</button>
                 </Link>
               </motion.div>
@@ -163,7 +163,7 @@ export default function CustomsConsultancyPage() {
             <motion.h2 variants={fadeUp} className="font-heading font-semibold text-3xl md:text-4xl uppercase mb-4">Expert Customs Representation</motion.h2>
             <motion.p variants={fadeUp} className="text-white/80 max-w-lg mx-auto mb-8">ISLF's customs consultants have resolved complex customs disputes for clients across industries — from SCN responses to CESTAT representations.</motion.p>
             <motion.div variants={fadeUp}>
-              <Link href="/#contacts">
+              <Link href="/contacts">
                 <button className="bg-white text-accent hover:bg-white/90 font-heading font-semibold text-sm uppercase tracking-widest px-10 py-4 transition-all">
                   Talk to Our Customs Expert
                 </button>

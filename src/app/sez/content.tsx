@@ -126,7 +126,7 @@ export default function SEZPage() {
               </motion.div>
               <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} className="bg-primary p-6">
                 <p className="text-white font-bold text-sm mb-3">Setting up in an SEZ?</p>
-                <Link href="/#contacts">
+                <Link href="/contacts">
                   <button className="w-full bg-accent hover:bg-accent/90 text-white font-bold text-xs uppercase tracking-widest py-3 transition-colors">Contact Us</button>
                 </Link>
               </motion.div>
@@ -141,7 +141,7 @@ export default function SEZPage() {
             <motion.h2 variants={fadeUp} className="font-heading font-semibold text-3xl md:text-4xl uppercase mb-4">SEZ Compliance Made Simple</motion.h2>
             <motion.p variants={fadeUp} className="text-white/80 max-w-lg mx-auto mb-8">ISLF handles all SEZ compliance requirements so you can focus on your core business.</motion.p>
             <motion.div variants={fadeUp}>
-              <Link href="/#contacts">
+              <Link href="/contacts">
                 <button className="bg-white text-accent hover:bg-white/90 font-heading font-semibold text-sm uppercase tracking-widest px-10 py-4 transition-all">
                   Talk to Our SEZ Experts
                 </button>

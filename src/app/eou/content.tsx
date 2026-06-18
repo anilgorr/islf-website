@@ -114,7 +114,7 @@ export default function EOUPage() {
               </motion.div>
               <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} className="bg-primary p-6">
                 <p className="text-white font-bold text-sm mb-3">Ready to set up an EOU?</p>
-                <Link href="/#contacts">
+                <Link href="/contacts">
                   <button className="w-full bg-accent hover:bg-accent/90 text-white font-bold text-xs uppercase tracking-widest py-3 transition-colors">Contact Us</button>
                 </Link>
               </motion.div>

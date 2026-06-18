@@ -236,7 +236,7 @@ export default function AboutPage() {
               Let ISLF's two-decade expertise simplify your logistics, customs and trade compliance challenges.
             </motion.p>
             <motion.div variants={fadeUp} className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/#contacts">
+              <Link href="/contacts">
                 <button className="bg-accent hover:bg-accent/90 text-white font-heading font-semibold text-sm uppercase tracking-widest px-10 py-4 transition-all group inline-flex items-center gap-3">
                   Get In Touch <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </button>

@@ -237,7 +237,7 @@ export default function WarehousingPage() {
             <motion.h2 variants={fadeUp} className="font-heading font-semibold text-3xl md:text-4xl uppercase mb-4">Discuss Your Warehousing Requirement</motion.h2>
             <motion.p variants={fadeUp} className="text-white/80 max-w-lg mx-auto mb-8">Whether you need bonded storage, cold chain or EOU compliance warehousing — speak to our team today.</motion.p>
             <motion.div variants={fadeUp}>
-              <Link href="/#contacts">
+              <Link href="/contacts">
                 <button className="bg-white text-accent hover:bg-white/90 font-heading font-semibold text-sm uppercase tracking-widest px-10 py-4 transition-all">
                   Contact Us
                 </button>

@@ -191,7 +191,7 @@ export default function CareersPage() {
               >
                 Send Your CV <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </a>
-              <Link href="/#contacts">
+              <Link href="/contacts">
                 <button className="border border-white/30 hover:border-accent text-white hover:text-accent font-heading font-semibold text-sm uppercase tracking-widest px-10 py-4 transition-all duration-300">
                   Contact Us
                 </button>

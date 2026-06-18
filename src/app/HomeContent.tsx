@@ -508,12 +508,16 @@ export default function Home() {
             </m.p>
             
             <m.div variants={slideInLeft} className="flex flex-wrap gap-4">
-              <Button className="bg-accent text-white hover:bg-white hover:text-primary font-heading font-semibold text-lg px-8 h-14 rounded-none transition-all duration-300">
-                Explore Services
-              </Button>
-              <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-primary font-heading font-semibold text-lg px-8 h-14 rounded-none transition-all duration-300">
-                Request a Quote
-              </Button>
+              <Link href="/services">
+                <Button className="bg-accent text-white hover:bg-white hover:text-primary font-heading font-semibold text-lg px-8 h-14 rounded-none transition-all duration-300">
+                  Explore Services
+                </Button>
+              </Link>
+              <Link href="/contacts">
+                <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-primary font-heading font-semibold text-lg px-8 h-14 rounded-none transition-all duration-300">
+                  Request a Quote
+                </Button>
+              </Link>
             </m.div>
           </m.div>
         </div>
