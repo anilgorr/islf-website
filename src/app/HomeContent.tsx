@@ -457,7 +457,7 @@ export default function Home() {
       </div>
 
       {/* 3. Hero Section */}
-      <section id="hero" className="relative w-full min-h-[90vh] flex items-center py-20 overflow-hidden dark bg-primary">
+      <section id="hero" data-theme="dark" className="relative w-full min-h-[90vh] flex items-center py-20 overflow-hidden bg-primary">
         <div className="absolute inset-0 z-0">
           {/* Ken Burns: entry zoom-in, then slow continuous drift */}
           <m.div
@@ -643,7 +643,7 @@ export default function Home() {
       </section>
 
       {/* 6. Special Services Section */}
-      <section className="py-24 md:py-32 bg-primary dark text-white relative">
+      <section data-theme="dark" className="py-24 md:py-32 bg-primary text-white relative">
         <div className="absolute inset-0 bg-industrial-grid opacity-10"></div>
         <div className="container mx-auto px-6 md:px-12 relative z-10">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-8">
@@ -818,7 +818,7 @@ export default function Home() {
       </section>
 
       {/* 9. Quote CTA */}
-      <section id="quote" className="py-24 bg-primary dark relative overflow-hidden">
+      <section id="quote" data-theme="dark" className="py-24 bg-primary relative overflow-hidden">
         <div className="absolute inset-0 bg-industrial-grid opacity-10"></div>
         <div className="container mx-auto px-6 md:px-12 relative z-10">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
