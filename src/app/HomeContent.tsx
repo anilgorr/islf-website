@@ -805,10 +805,10 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex gap-2">
-                <button onClick={prevTestimonial} className="w-12 h-12 flex items-center justify-center bg-secondary hover:bg-primary hover:text-white text-primary transition-colors">
+                <button onClick={prevTestimonial} aria-label="Previous testimonial" className="w-12 h-12 flex items-center justify-center bg-secondary hover:bg-primary hover:text-white text-primary transition-colors">
                   <ChevronLeft className="w-6 h-6" />
                 </button>
-                <button onClick={nextTestimonial} className="w-12 h-12 flex items-center justify-center bg-secondary hover:bg-primary hover:text-white text-primary transition-colors">
+                <button onClick={nextTestimonial} aria-label="Next testimonial" className="w-12 h-12 flex items-center justify-center bg-secondary hover:bg-primary hover:text-white text-primary transition-colors">
                   <ChevronRight className="w-6 h-6" />
                 </button>
               </div>

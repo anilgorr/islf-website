@@ -13,68 +13,104 @@ ISLF serves importers, exporters, and manufacturers across industries including 
 ## Website Pages
 
 ### Home
-URL: https://islf.in/
-Summary: Overview of ISLF — AEO certified customs broker and freight forwarder. Highlights services, offices, leadership and contact information.
+[Home — AEO Certified Customs Broker & Freight Forwarder India](https://islf.in/)
+Overview of ISLF — AEO certified customs broker and freight forwarder. Highlights services, offices, leadership and contact information.
 
 ### About
-URL: https://islf.in/about
-Summary: ISLF company profile, 25+ year history, mission and vision, AEO certification details, Award for Excellence 2023–24, and global office locations.
+[About ISLF — 25 Years of Logistics Excellence](https://islf.in/about)
+ISLF company profile, 25+ year history, mission and vision, AEO certification details, Award for Excellence 2023–24, and global office locations.
 
 ### Services
-URL: https://islf.in/services
-Summary: Overview of all logistics and shipping services — Customs Broking, Freight Forwarding, DGFT, Customs Consultancy, CFS, EOU/SEZ/STPI, and GST.
+[Logistics & Shipping Services — ISLF](https://islf.in/services)
+Overview of all logistics and shipping services — Customs Broking, Freight Forwarding, DGFT, Customs Consultancy, CFS, EOU/SEZ/STPI, and GST.
 
 ### Customs Broking
-URL: https://islf.in/customs-broking
-Summary: Detailed page on ISLF's customs broking (CCA) services — import clearance (merit duty, EPCG, DEEC, RoDTEP, bonding, LMPC, BIS, EPR), export clearance (duty-free, licenses, RoDTEP, drawback), AEO certification benefits.
+[Customs Broking Services India — ISLF](https://islf.in/customs-broking)
+Detailed page on ISLF's customs broking (CCA) services — import clearance (merit duty, EPCG, DEEC, RoDTEP, bonding, LMPC, BIS, EPR), export clearance (duty-free, licenses, RoDTEP, drawback), AEO certification benefits.
 
 ### Consulting Services Overview
-URL: https://islf.in/consulting
-Summary: Overview of all ISLF consulting services for EXIM trade — DGFT, Customs Consultancy, CFS, EOU, SEZ, STPI/HTPI/EHTP, GST and RoDTEP.
+[Consulting Services — ISLF EXIM Trade Experts](https://islf.in/consulting)
+Overview of all ISLF consulting services for EXIM trade — DGFT, Customs Consultancy, CFS, EOU, SEZ, STPI/HTPI/EHTP, GST and RoDTEP.
 
 ### DGFT Consulting
-URL: https://islf.in/dgft
-Summary: DGFT (Directorate General of Foreign Trade) consulting — IEC registration, EPCG/DEEC/DFIA/Advance Authorization, RoDTEP, SCOMET, Status Holder Certificate, RCMC, SION norms, PRC/EFC/PIC/EPCG Committee HQ representations.
+[DGFT Consulting Services India — ISLF](https://islf.in/dgft)
+DGFT (Directorate General of Foreign Trade) consulting — IEC registration, EPCG/DEEC/DFIA/Advance Authorization, RoDTEP, SCOMET, Status Holder Certificate, RCMC, SION norms, PRC/EFC/PIC/EPCG Committee HQ representations.
 
 ### Customs Consultancy
-URL: https://islf.in/customs-consultancy
-Summary: Customs advisory services — provisional assessment finalization, duty drawback refunds, Show Cause Notice (SCN) responses through adjudication, CESTAT appeals, SVB (Special Valuation Branch) challenges, break-bulk cargo assessment, vessel chartering.
+[Customs Consultancy Services — ISLF](https://islf.in/customs-consultancy)
+Customs advisory services — provisional assessment finalization, duty drawback refunds, Show Cause Notice (SCN) responses through adjudication, CESTAT appeals, SVB (Special Valuation Branch) challenges, break-bulk cargo assessment, vessel chartering.
 
 ### Container Freight Station (CFS)
-URL: https://islf.in/cfs
-Summary: CFS consulting — new CFS license procurement, custodian/customs coordination, bonded warehouse permissions, EDI port code facilitation, day-to-day statutory CFS operations.
+[CFS Consulting Services — ISLF](https://islf.in/cfs)
+CFS consulting — new CFS license procurement, custodian/customs coordination, bonded warehouse permissions, EDI port code facilitation, day-to-day statutory CFS operations.
 
 ### Export Oriented Units (EOU)
-URL: https://islf.in/eou
-Summary: EOU consulting — registration under EOU Scheme, LOI/LOP from Development Commissioner, In-bond manufacturing license (Section 65), warehousing license (Section 58), B/17 bond, customs bonding, DTA sales permission, CT3 certificate, CST reimbursement, de-bonding, unit closure.
+[EOU Consulting Services India — ISLF](https://islf.in/eou)
+EOU consulting — registration under EOU Scheme, LOI/LOP from Development Commissioner, In-bond manufacturing license (Section 65), warehousing license (Section 58), B/17 bond, customs bonding, DTA sales permission, CT3 certificate, CST reimbursement, de-bonding, unit closure.
 
 ### Special Economic Zone (SEZ)
-URL: https://islf.in/sez
-Summary: SEZ consulting — import and local procurement procedures, customs handling, C&F agency for developers/units, SEZ register maintenance (GRN, MRS, MIS, consumption records, job work), monthly/half-yearly returns to Development Commissioner, Form-I for CST exemption, Re-warehousing Certificates, on-site help desk.
+[SEZ Consulting Services India — ISLF](https://islf.in/sez)
+SEZ consulting — import and local procurement procedures, customs handling, C&F agency for developers/units, SEZ register maintenance (GRN, MRS, MIS, consumption records, job work), monthly/half-yearly returns to Development Commissioner, Form-I for CST exemption, Re-warehousing Certificates, on-site help desk.
 
 ### STPI / HTPI / EHTP
-URL: https://islf.in/stpi
-Summary: STPI (Software Technology Parks India), HTPI (Hardware Technology Parks India) and EHTP (Electronic Hardware Technology Park) consulting — registration, LOI/LOP, customs handling, C&F agency, GST/STPI/SEZ returns, DTA sales permission, internal audit (verification of clearances, registers, export documents), records maintenance, unit closure.
+[STPI Consulting Services India — ISLF](https://islf.in/stpi)
+STPI (Software Technology Parks India), HTPI (Hardware Technology Parks India) and EHTP (Electronic Hardware Technology Park) consulting — registration, LOI/LOP, customs handling, C&F agency, GST/STPI/SEZ returns, DTA sales permission, internal audit, records maintenance, unit closure.
 
 ### GST Consulting
-URL: https://islf.in/gst
-Summary: GST consulting for importers and exporters — GST registration, all 11 categories of IGST/ITC refunds (excess cash ledger, ITC on exports without IGST, SEZ supplies with/without tax, inverted tax structure, deemed exports supplier/recipient, export of services, inter/intra-State supply correction, excess payment, assessment orders).
+[GST Consulting for Importers & Exporters — ISLF](https://islf.in/gst)
+GST consulting for importers and exporters — GST registration, all 11 categories of IGST/ITC refunds (excess cash ledger, ITC on exports without IGST, SEZ supplies with/without tax, inverted tax structure, deemed exports supplier/recipient, export of services, inter/intra-State supply correction, excess payment, assessment orders).
 
 ### RoDTEP Consulting
-URL: https://islf.in/rodtep
-Summary: RoDTEP (Remission of Duties and Taxes on Exported Products) consulting — eligibility assessment, Shipping Bill declaration (SB003 scroll), ICEGATE/DGFT scrip generation, credit transfer and utilization, reconciliation, SCOMET license, DGFT liaison, MEIS-to-RoDTEP transition advisory.
+[RoDTEP Consulting Services — ISLF](https://islf.in/rodtep)
+RoDTEP (Remission of Duties and Taxes on Exported Products) consulting — eligibility assessment, Shipping Bill declaration (SB003 scroll), ICEGATE/DGFT scrip generation, credit transfer and utilization, reconciliation, SCOMET license, DGFT liaison, MEIS-to-RoDTEP transition advisory.
+
+### Sea Freight
+[Sea Freight Services India — ISLF](https://islf.in/sea-freight)
+FCL and LCL sea freight services, port-to-port and door-to-door, global coverage from all major Indian ports.
+
+### Air Freight
+[Air Freight Services India — ISLF](https://islf.in/air-freight)
+Express and standard air cargo services, perishables, high-value goods, all major Indian airports.
+
+### Road Freight
+[Road Freight Services India — ISLF](https://islf.in/road-freight)
+Pan-India road transport, FTL and LTL, connecting ports, airports and industrial zones.
+
+### Freight Forwarding
+[Freight Forwarding Services India — ISLF](https://islf.in/freight-forwarding)
+FCL, LCL, ODC/oversized cargo, door-to-door, DDU/DDP, daily status updates.
+
+### Warehousing
+[Warehousing Services India — ISLF](https://islf.in/warehousing)
+Bonded and open warehousing, distribution across India.
 
 ### FAQ
-URL: https://islf.in/faq
-Summary: Frequently asked questions on customs broking, freight forwarding, multimodal transport, Shipping Bill, Bill of Entry, Bill of Lading, airway bill, INCOTERMS (EXW, FCA, FAS, FOB, CFR, CIF, CPT, CIP, DAT, DAP, DDP, DDU).
+[Customs & Freight FAQ — ISLF](https://islf.in/faq)
+Frequently asked questions on customs broking, freight forwarding, multimodal transport, Shipping Bill, Bill of Entry, Bill of Lading, airway bill, INCOTERMS.
 
 ### Blog
-URL: https://islf.in/blog
-Summary: Trade and logistics insights — RoDTEP, DGFT policy, GST for exporters, air freight, customs broker guides, AEO certification, SEZ and EOU updates.
+[Logistics & Trade Blog — ISLF](https://islf.in/blog)
+Trade and logistics insights — RoDTEP, DGFT policy, GST for exporters, air freight, customs broker guides, AEO certification, SEZ and EOU updates.
 
 ### Careers
-URL: https://islf.in/careers
-Summary: Job openings at ISLF — Customs Executive, Freight Operations Manager, DGFT Consultant, Business Development Executive, GST Consultant, Senior Customs Broker. Why work at ISLF — growth, AEO prestige, global exposure.
+[Careers at ISLF — Join India's AEO Certified Logistics Leader](https://islf.in/careers)
+Job openings at ISLF — Customs Executive, Freight Operations Manager, DGFT Consultant, Business Development Executive, GST Consultant, Senior Customs Broker.
+
+### Request Ship Freight Quote
+[Request Ship Freight Quote — ISLF](https://islf.in/request-ship-freight-quote)
+Request a competitive sea freight quote for FCL, LCL or break-bulk shipments worldwide.
+
+### Request Air Freight Quote
+[Request Air Freight Quote — ISLF](https://islf.in/request-air-freight-quote)
+Request a competitive air freight quote for time-sensitive cargo shipped worldwide.
+
+### Track Your Shipment
+[Track Your Shipment — ISLF Freight Management](https://islf.in/track-your-shipment)
+Track any ISLF Freight Management shipment by transportation mode and reference number.
+
+### Contacts
+[Contact ISLF — Customs Broker & Freight Forwarder India](https://islf.in/contacts)
+Get in touch with ISLF — office locations, phone numbers, email, and enquiry form.
 
 ## Services
 
@@ -105,7 +141,7 @@ Summary: Job openings at ISLF — Customs Executive, Freight Operations Manager,
 ### Chennai — Head Office
 Sudharsanam Tower, No.06 & 08, Old No 176, 3rd Floor, Coral Merchant Street, Mannady, Chennai 600001, Tamil Nadu, India
 Phone: +91-44-2525 1314 / 15 / 16 / 17 / 18
-Email: info@islf.in
+Email: [info@islf.in](mailto:info@islf.in)
 
 ### Chennai — Freight Forwarding Office
 Door No.2A, Old No.126, New No.257, Zafrullah Towers, 2nd Floor, Angappan Street, Parrys Corner, Chennai 600001, Tamil Nadu, India
@@ -129,8 +165,8 @@ Phone: +84-28-62873031
 
 ## Contact
 
-- **Website**: https://islf.in
-- **Email**: info@islf.in
+- **Website**: [https://islf.in](https://islf.in)
+- **Email**: [info@islf.in](mailto:info@islf.in)
 - **Phone**: +91 9538876950 (WhatsApp), +91-44-2525 1314
 - **Hours**: Monday–Saturday, 9:00 AM – 6:00 PM IST
 
