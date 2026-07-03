@@ -65,7 +65,7 @@ const services = [
     highlights: [
       "IEC (Import / Export Code) registration & modification",
       "EPCG / Advance Authorization (DEEC) / DFIA processing",
-      "RoDTEP / SCOMET Export license / TMA Scheme",
+      "RoDTEP / SCOMET Export license",
       "Status Holder Certificate & RCMC Certificate",
       "Deemed Exports — Drawback / Refund of TED",
       "SION Norms fixation / ratification at DGFT HQ",

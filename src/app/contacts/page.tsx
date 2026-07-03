@@ -16,6 +16,7 @@ const branches = [
   "Tuticorin Office",
   "Vietnam Office",
   "Gujarat Office",
+  "Indonesia Office",
 ];
 
 const locations = [
@@ -23,7 +24,7 @@ const locations = [
     city: "Bengaluru",
     label: "India",
     address: "Flat 101, Saroj Regency, Site 3, MS Reddy Nagar, Opposite to Maha Bazaar, Marathahalli, Bangalore 560037",
-    phone: "+91 9538876950",
+    phone: "+91 9538876950 (WhatsApp only)",
     email: "info@islf.in",
     mapSrc: "https://maps.google.com/maps?q=Marathahalli,+Bangalore+560037&t=&z=15&ie=UTF8&iwloc=&output=embed",
   },
@@ -46,15 +47,15 @@ const locations = [
   {
     city: "Tuticorin",
     label: "India",
-    address: "No.21, New Colony, 2nd Street, Thoothukudi 628003, Tamil Nadu",
+    address: "No. 3/188/5A, MSP Towers, Palayamkottai Main Road, Periyanayagapuram, Opp. Collector Office, Tuticorin – 628 101, India",
     phone: "+91-0461-2340790 / 91 / 92 / 93 / 94 / 95",
     email: "info@islf.in",
-    mapSrc: "https://maps.google.com/maps?q=New+Colony,+Thoothukudi+628003,+Tamil+Nadu&t=&z=14&ie=UTF8&iwloc=&output=embed",
+    mapSrc: "https://maps.google.com/maps?q=Palayamkottai+Main+Road,+Tuticorin+628101,+Tamil+Nadu&t=&z=14&ie=UTF8&iwloc=&output=embed",
   },
   {
     city: "Vietnam",
     label: "Ho Chi Minh City",
-    address: "Ho Chi Minh City, Vietnam",
+    address: "L202-2nd floor, ARC REAL building, No.1, Nguyen Duy Street, Gia Dinh Ward, Ho Chi Minh City, Vietnam",
     phone: "+84-28-62873031",
     email: "info@islf.in",
     mapSrc: "https://maps.google.com/maps?q=Ho+Chi+Minh+City,+Vietnam&t=&z=13&ie=UTF8&iwloc=&output=embed",
@@ -66,6 +67,14 @@ const locations = [
     phone: "+91 9538876950",
     email: "info@islf.in",
     mapSrc: "https://maps.google.com/maps?q=Gandhidham,+Kutch,+Gujarat+370201&t=&z=13&ie=UTF8&iwloc=&output=embed",
+  },
+  {
+    city: "Indonesia",
+    label: "Jakarta",
+    address: "The Mansion Bougenville, Tower Fontana Zona, BF 31A1, JI. Trembesi Blok D, Kemayoran, Kec. Pademangan, Jakarta Utara, DKI Jakarta - Indonesia 14410",
+    phone: "+62 81188060213 / +91 9677794670",
+    email: "info@islf.in",
+    mapSrc: "https://maps.google.com/maps?q=Kemayoran,+Jakarta+Utara,+DKI+Jakarta+14410&t=&z=13&ie=UTF8&iwloc=&output=embed",
   },
 ];
 
@@ -463,7 +472,7 @@ export default function ContactsPage() {
                     <span className="text-sm text-foreground leading-relaxed">{loc.address}</span>
                   </div>
                   <div className="flex sm:flex-col gap-4 sm:gap-2 shrink-0 text-sm">
-                    <a href={`tel:${loc.phone.replace(/[\s\-\/]/g, "")}`} className="flex items-center gap-2 text-foreground hover:text-accent transition-colors">
+                    <a href={`tel:${loc.phone.split("/")[0].replace(/[^\d+]/g, "")}`} className="flex items-center gap-2 text-foreground hover:text-accent transition-colors">
                       <Phone className="w-4 h-4 text-accent" />
                       {loc.phone}
                     </a>

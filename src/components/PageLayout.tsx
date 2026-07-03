@@ -13,12 +13,13 @@ import {
 import { Button } from "@/components/ui/button";
 
 const offices = [
-  { label: "Bengaluru Office", phone: "+91 9538876950", phoneDisplay: "+91 9538876950", hours: "Mon–Sat: 9AM–6PM" },
+  { label: "Bengaluru Office", phone: "+91 9538876950", phoneDisplay: "+91 9538876950 (WhatsApp only)", hours: "Mon–Sat: 9AM–6PM" },
   { label: "Chennai Head Office", phone: "+914425251314", phoneDisplay: "CALL FREE: +91-44-2525 1314 / 15 / 16 / 17 / 18", hours: "Mon–Sat: 9AM–6PM" },
   { label: "Chennai Freight", phone: "+914447896568", phoneDisplay: "+91 44 4789 6568", hours: "Mon–Sat: 9AM–6PM" },
   { label: "Tuticorin Office", phone: "+914612340790", phoneDisplay: "CALL FREE: +91-0461-2340790 / 91 / 92 / 93 / 94 / 95", hours: "Mon–Sat: 9AM–6PM" },
   { label: "Vietnam Office", phone: "+842862873031", phoneDisplay: "+84-28-62873031", hours: "Mon–Fri: 8AM–5PM · Sat: 8AM–12PM" },
   { label: "Gujarat Office", phone: "+919538876950", phoneDisplay: "+91 9538876950", hours: "Mon–Sat: 9AM–6PM" },
+  { label: "Indonesia Office", phone: "+6281188060213", phoneDisplay: "+62 81188060213 / +91 9677794670", hours: "Mon–Sat: 9AM–6PM" },
 ];
 
 const navLinks = [
@@ -332,9 +333,9 @@ export default function PageLayout({ children }: { children: React.ReactNode }) 
                     {mobileDropdown === "quote" && (
                       <div className="bg-white/5 border-b border-white/5">
                         {[
-                          { label: "Request Ship Freight Quote", href: "/sea-freight" },
-                          { label: "Request Air Freight Quote", href: "/air-freight" },
-                          { label: "Track Your Shipment", href: "/contacts" },
+                          { label: "Request Ship Freight Quote", href: "/request-ship-freight-quote" },
+                          { label: "Request Air Freight Quote", href: "/request-air-freight-quote" },
+                          { label: "Track Your Shipment", href: "/track-your-shipment" },
                         ].map((item) => (
                           <Link key={item.href} href={item.href} className="flex items-center gap-2 pl-6 pr-4 py-3 text-white/60 hover:text-accent font-medium text-sm border-b border-white/5 last:border-0" onClick={() => setIsMobileMenuOpen(false)}>
                             <ChevronRight className="w-3 h-3 text-accent/60 shrink-0" aria-hidden="true" /> {item.label}
@@ -413,6 +414,13 @@ export default function PageLayout({ children }: { children: React.ReactNode }) 
                   <div className="flex items-start gap-2 text-sm text-white/60">
                     <MapPin className="w-4 h-4 text-accent shrink-0 mt-0.5" />
                     <span>&quot;Gold Coin&quot; No.202, Plot 321,<br />Gandhidham, Kutch 370201</span>
+                  </div>
+                </div>
+                <div>
+                  <p className="text-white font-semibold text-sm mb-2 uppercase tracking-wide">Indonesia Office</p>
+                  <div className="flex items-start gap-2 text-sm text-white/60">
+                    <MapPin className="w-4 h-4 text-accent shrink-0 mt-0.5" />
+                    <span>The Mansion Bougenville, Tower Fontana Zona, BF 31A1,<br />JI. Trembesi Blok D, Kemayoran,<br />Jakarta Utara, DKI Jakarta 14410</span>
                   </div>
                 </div>
               </div>

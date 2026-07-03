@@ -80,7 +80,7 @@ export default function Home() {
     {
       label: "Bengaluru Office",
       phone: "+91 9538876950",
-      phoneDisplay: "+91 9538876950",
+      phoneDisplay: "+91 9538876950 (WhatsApp only)",
       hours: "Mon–Sat: 9AM–6PM",
       contactIndex: 0,
     },
@@ -118,6 +118,13 @@ export default function Home() {
       phoneDisplay: "+91 9538876950",
       hours: "Mon–Sat: 9AM–6PM",
       contactIndex: 5,
+    },
+    {
+      label: "Indonesia Office",
+      phone: "+6281188060213",
+      phoneDisplay: "+62 81188060213 / +91 9677794670",
+      hours: "Mon–Sat: 9AM–6PM",
+      contactIndex: 6,
     },
   ];
 
@@ -879,15 +886,15 @@ export default function Home() {
           {
             city: "Tuticorin",
             country: "India",
-            address: "No.21, New Colony, 2nd Street, Thoothukudi 628003, Tamil Nadu",
+            address: "No. 3/188/5A, MSP Towers, Palayamkottai Main Road, Periyanayagapuram, Opp. Collector Office, Tuticorin – 628 101, India",
             phone: "+91-0461-2340790 / 91 / 92 / 93 / 94 / 95",
             email: "info@islf.in",
-            mapSrc: "https://maps.google.com/maps?q=New+Colony,+Thoothukudi+628003,+Tamil+Nadu&t=&z=14&ie=UTF8&iwloc=&output=embed"
+            mapSrc: "https://maps.google.com/maps?q=Palayamkottai+Main+Road,+Tuticorin+628101,+Tamil+Nadu&t=&z=14&ie=UTF8&iwloc=&output=embed"
           },
           {
             city: "Vietnam",
             country: "Ho Chi Minh City",
-            address: "Ho Chi Minh City, Vietnam",
+            address: "L202-2nd floor, ARC REAL building, No.1, Nguyen Duy Street, Gia Dinh Ward, Ho Chi Minh City, Vietnam",
             phone: "+91 9538876950",
             email: "info@islf.in",
             mapSrc: "https://maps.google.com/maps?q=Ho+Chi+Minh+City,+Vietnam&t=&z=13&ie=UTF8&iwloc=&output=embed"
@@ -899,6 +906,14 @@ export default function Home() {
             phone: "+91 9538876950",
             email: "info@islf.in",
             mapSrc: "https://maps.google.com/maps?q=Gandhidham,+Kutch,+Gujarat+370201&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            city: "Indonesia",
+            country: "Jakarta",
+            address: "The Mansion Bougenville, Tower Fontana Zona, BF 31A1, JI. Trembesi Blok D, Kemayoran, Kec. Pademangan, Jakarta Utara, DKI Jakarta - Indonesia 14410",
+            phone: "+62 81188060213 / +91 9677794670",
+            email: "info@islf.in",
+            mapSrc: "https://maps.google.com/maps?q=Kemayoran,+Jakarta+Utara,+DKI+Jakarta+14410&t=&z=13&ie=UTF8&iwloc=&output=embed"
           }
         ];
         const active = openLocation ?? 0;
@@ -1120,6 +1135,13 @@ export default function Home() {
                   <div className="flex items-start gap-2 text-sm text-white/60">
                     <MapPin className="w-4 h-4 text-accent shrink-0 mt-0.5" />
                     <span>Flat 101, Saroj Regency, Site 3,<br />MS Reddy Nagar, Marathahalli,<br />Bengaluru 560037</span>
+                  </div>
+                </div>
+                <div>
+                  <p className="text-white font-semibold text-sm mb-2 uppercase tracking-wide">Indonesia — Branch</p>
+                  <div className="flex items-start gap-2 text-sm text-white/60">
+                    <MapPin className="w-4 h-4 text-accent shrink-0 mt-0.5" />
+                    <span>The Mansion Bougenville, Tower Fontana Zona,<br />BF 31A1, JI. Trembesi Blok D, Kemayoran,<br />Jakarta Utara, DKI Jakarta 14410</span>
                   </div>
                 </div>
               </div>

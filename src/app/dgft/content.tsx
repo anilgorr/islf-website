@@ -12,15 +12,16 @@ const coreServices = [
   "IEC (Import / Export Code) registration and modification.",
   "Steel Import Monitoring System (SIMS) registration.",
   "Obtain new EPCG / Advance Authorization (DEEC) / DFIA / Annual Advance Authorization.",
-  "Obtain new RoDTEP / SCOMET Export license / TMA Scheme.",
+  "Obtain new RoDTEP / SCOMET Export license.",
   "Obtain new / renewal of Status Holder Certificate / RCMC Certificate.",
   "Deemed Exports — Drawback / Refund of Terminal Excise Duty (TED).",
   "Specific License for restricted items and Hi-tech Product Export Promotion Scheme.",
   "Clubbing / Amendment / Regularization / Extension / Invalidation / Revalidation of licenses.",
   "Free Sale Certificate for manufacturers or traders.",
   "Closure of EPCG / Advance (DEEC) / DFIA License.",
-  "Chip Import Monitoring System (CHIMS).",
   "Restricted import authorization for IT hardware (Notification 23/2023 dated 03.08.2023).",
+  "Obtain warehouse license (Private / Public / MOOWR).",
+  "Obtain Export Promotion mission.",
   "DGFT Appeals — HQ & Regional Authority (RA).",
 ];
 
