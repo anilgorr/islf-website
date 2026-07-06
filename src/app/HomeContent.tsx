@@ -75,7 +75,7 @@ export default function Home() {
   const [openLocation, setOpenLocation] = useState<number | null>(0);
   const [selectedOffice, setSelectedOffice] = useState(0);
   const [officeDropdownOpen, setOfficeDropdownOpen] = useState(false);
-  const [footerOfficeOpen, setFooterOfficeOpen] = useState<number | null>(0);
+  const [footerOfficeOpen, setFooterOfficeOpen] = useState<number | null>(null);
 
   const footerOffices = [
     {

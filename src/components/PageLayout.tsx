@@ -83,7 +83,7 @@ export default function PageLayout({ children }: { children: React.ReactNode }) 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [selectedOffice, setSelectedOffice] = useState(0);
   const [officeDropdownOpen, setOfficeDropdownOpen] = useState(false);
-  const [footerOfficeOpen, setFooterOfficeOpen] = useState<number | null>(0);
+  const [footerOfficeOpen, setFooterOfficeOpen] = useState<number | null>(null);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const [mobileDropdown, setMobileDropdown] = useState<string | null>(null);
   const location = usePathname();
