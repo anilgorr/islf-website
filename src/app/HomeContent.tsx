@@ -1135,6 +1135,7 @@ export default function Home() {
                   { label: "Careers", href: "/careers", isRoute: true },
                   { label: "Contacts", href: "/contacts", isRoute: true },
                   { label: "Blog", href: "/blog", isRoute: true },
+                  { label: "Track Your Shipment", href: "/track-your-shipment", isRoute: true },
                 ].map((link) => (
                   <li key={link.label}>
                     {link.isRoute

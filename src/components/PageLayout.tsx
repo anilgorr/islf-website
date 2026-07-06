@@ -76,6 +76,7 @@ const navLinks = [
   { label: "Careers", href: "/careers" },
   { label: "Contacts", href: "/contacts" },
   { label: "Blog", href: "/blog" },
+  { label: "Track Your Shipment", href: "/track-your-shipment" },
 ];
 
 export default function PageLayout({ children }: { children: React.ReactNode }) {
