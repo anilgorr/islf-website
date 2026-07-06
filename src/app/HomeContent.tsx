@@ -75,6 +75,52 @@ export default function Home() {
   const [openLocation, setOpenLocation] = useState<number | null>(0);
   const [selectedOffice, setSelectedOffice] = useState(0);
   const [officeDropdownOpen, setOfficeDropdownOpen] = useState(false);
+  const [footerOfficeOpen, setFooterOfficeOpen] = useState<number | null>(0);
+
+  const footerOffices = [
+    {
+      label: "Chennai — HQ",
+      address: ["Sudharsanam Tower, No.06 & 08,", "Coral Merchant Street, Mannady,", "Chennai 600001"],
+      phone: "+91-44-2525 1314 / 15 / 16 / 17 / 18",
+      email: "info@islf.in",
+    },
+    {
+      label: "Chennai — Freight Forwarding",
+      address: ["Door No.2A, Zafrullah Towers, 2nd Floor,", "Angappan Street, Parrys Corner,", "Chennai 600001"],
+      phone: "+91 44 4789 6568",
+      email: "info@islf.in",
+    },
+    {
+      label: "Bengaluru — Branch",
+      address: ["Flat 101, Saroj Regency, Site 3,", "MS Reddy Nagar, Marathahalli,", "Bengaluru 560037"],
+      phone: "+91 9538876950 (WhatsApp only)",
+      email: "info@islf.in",
+    },
+    {
+      label: "Tuticorin — Branch",
+      address: ["No. 3/188/5A, MSP Towers,", "Palayamkottai Main Road, Periyanayagapuram,", "Opp. Collector Office, Tuticorin – 628 101"],
+      phone: "+91-0461-2340790 / 91 / 92 / 93 / 94 / 95",
+      email: "info@islf.in",
+    },
+    {
+      label: "Gujarat — Branch",
+      address: ["\u201cGold Coin\u201d No.202, Plot 321,", "Ward 12/B, Gandhidham,", "Kutch, Gujarat 370201"],
+      phone: "+91 9538876950",
+      email: "info@islf.in",
+    },
+    {
+      label: "Vietnam — Branch",
+      address: ["L202-2nd floor, ARC REAL building,", "No.1, Nguyen Duy Street, Gia Dinh Ward,", "Ho Chi Minh City, Vietnam"],
+      phone: "+84-28-62873031",
+      email: "info@islf.in",
+    },
+    {
+      label: "Indonesia — Branch",
+      address: ["The Mansion Bougenville, Tower Fontana Zona,", "BF 31A1, JI. Trembesi Blok D, Kemayoran,", "Jakarta Utara, DKI Jakarta 14410"],
+      phone: "+62 81188060213 / +91 9677794670",
+      email: "info@islf.in",
+    },
+  ];
 
   const offices = [
     {
@@ -1112,38 +1158,53 @@ export default function Home() {
                 <span className="block w-6 h-[2px] bg-accent" />
                 Our Offices
               </h4>
-              <div className="space-y-8">
-                <div>
-                  <p className="text-white font-semibold text-sm mb-2 uppercase tracking-wide">Chennai — HQ</p>
-                  <div className="space-y-2 text-sm text-white/60">
-                    <div className="flex items-start gap-2">
-                      <MapPin className="w-4 h-4 text-accent shrink-0 mt-0.5" />
-                      <span>Sudharsanam Tower, No.06 & 08,<br />Coral Merchant Street, Mannady,<br />Chennai 600001</span>
+              <div className="divide-y divide-white/10 border-t border-b border-white/10">
+                {footerOffices.map((office, i) => {
+                  const isOpen = footerOfficeOpen === i;
+                  return (
+                    <div key={office.label}>
+                      <button
+                        type="button"
+                        onClick={() => setFooterOfficeOpen(isOpen ? null : i)}
+                        className="w-full flex items-center justify-between gap-3 py-4 text-left"
+                        aria-expanded={isOpen}
+                      >
+                        <span className="text-white font-semibold text-sm uppercase tracking-wide">{office.label}</span>
+                        <ChevronDown className={`w-4 h-4 text-accent shrink-0 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`} aria-hidden="true" />
+                      </button>
+                      <AnimatePresence initial={false}>
+                        {isOpen && (
+                          <m.div
+                            initial={{ height: 0, opacity: 0 }}
+                            animate={{ height: "auto", opacity: 1 }}
+                            exit={{ height: 0, opacity: 0 }}
+                            transition={{ duration: 0.2 }}
+                            className="overflow-hidden"
+                          >
+                            <div className="space-y-2 text-sm text-white/60 pb-5">
+                              <div className="flex items-start gap-2">
+                                <MapPin className="w-4 h-4 text-accent shrink-0 mt-0.5" />
+                                <span>
+                                  {office.address.map((line, idx) => (
+                                    <span key={idx}>{line}{idx < office.address.length - 1 && <br />}</span>
+                                  ))}
+                                </span>
+                              </div>
+                              <div className="flex items-center gap-2">
+                                <Phone className="w-4 h-4 text-accent shrink-0" />
+                                <span>{office.phone}</span>
+                              </div>
+                              <div className="flex items-center gap-2">
+                                <Mail className="w-4 h-4 text-accent shrink-0" />
+                                <span>{office.email}</span>
+                              </div>
+                            </div>
+                          </m.div>
+                        )}
+                      </AnimatePresence>
                     </div>
-                    <div className="flex items-center gap-2">
-                      <Phone className="w-4 h-4 text-accent shrink-0" />
-                      <span>+91-44-2525 1314 / 15 / 16 / 17 / 18</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <Mail className="w-4 h-4 text-accent shrink-0" />
-                      <span>info@islf.in</span>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <p className="text-white font-semibold text-sm mb-2 uppercase tracking-wide">Bengaluru — Branch</p>
-                  <div className="flex items-start gap-2 text-sm text-white/60">
-                    <MapPin className="w-4 h-4 text-accent shrink-0 mt-0.5" />
-                    <span>Flat 101, Saroj Regency, Site 3,<br />MS Reddy Nagar, Marathahalli,<br />Bengaluru 560037</span>
-                  </div>
-                </div>
-                <div>
-                  <p className="text-white font-semibold text-sm mb-2 uppercase tracking-wide">Indonesia — Branch</p>
-                  <div className="flex items-start gap-2 text-sm text-white/60">
-                    <MapPin className="w-4 h-4 text-accent shrink-0 mt-0.5" />
-                    <span>The Mansion Bougenville, Tower Fontana Zona,<br />BF 31A1, JI. Trembesi Blok D, Kemayoran,<br />Jakarta Utara, DKI Jakarta 14410</span>
-                  </div>
-                </div>
+                  );
+                })}
               </div>
             </div>
 
