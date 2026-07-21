@@ -545,7 +545,7 @@ export default function Home() {
               />
             </m.div>
           </m.div>
-          <div className="absolute inset-0 bg-gradient-to-r from-[#0A1628]/90 via-[#0A1628]/70 to-[#0A1628]/40" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#12294a]/80 via-[#12294a]/55 to-[#12294a]/20" />
           <div className="absolute inset-0 bg-industrial-grid opacity-20" />
         </div>
         
