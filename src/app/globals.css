@@ -57,7 +57,7 @@
   --popover: 0 0% 100%;
   --popover-foreground: 216 60% 10%;
   --popover-border: 214 32% 91%;
-  --primary: 216 55% 20%;
+  --primary: 216 38% 26%;
   --primary-foreground: 0 0% 100%;
   --secondary: 214 32% 91%;
   --secondary-foreground: 216 60% 10%;
@@ -74,19 +74,19 @@
 }
 
 [data-theme="dark"] {
-  --background: 216 55% 20%;
+  --background: 216 38% 26%;
   --foreground: 0 0% 100%;
-  --card: 216 55% 20%;
+  --card: 216 38% 26%;
   --card-foreground: 0 0% 100%;
   --card-border: 0 0% 100% / 0.1;
-  --popover: 216 55% 20%;
+  --popover: 216 38% 26%;
   --popover-foreground: 0 0% 100%;
   --popover-border: 0 0% 100% / 0.1;
   --primary: 0 0% 100%;
-  --primary-foreground: 216 55% 20%;
-  --secondary: 216 45% 28%;
+  --primary-foreground: 216 38% 26%;
+  --secondary: 216 32% 34%;
   --secondary-foreground: 0 0% 100%;
-  --muted: 216 45% 28%;
+  --muted: 216 32% 34%;
   --muted-foreground: 210 33% 77%;
   --accent: 23 93% 54%;
   --accent-foreground: 0 0% 100%;
@@ -108,7 +108,7 @@
 }
 
 ::-webkit-scrollbar { width: 8px; }
-::-webkit-scrollbar-track { background: hsl(216 55% 20%); }
+::-webkit-scrollbar-track { background: hsl(216 38% 26%); }
 ::-webkit-scrollbar-thumb { background: hsl(23 93% 54%); }
 ::-webkit-scrollbar-thumb:hover { background: hsl(23 93% 45%); }
 

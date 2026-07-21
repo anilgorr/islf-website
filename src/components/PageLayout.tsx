@@ -144,7 +144,7 @@ export default function PageLayout({ children }: { children: React.ReactNode }) 
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -6 }}
                 transition={{ duration: 0.15 }}
-                className="absolute right-6 md:right-12 top-[44px] w-52 bg-[#1B3E63] border border-white/10 shadow-2xl z-50"
+                className="absolute right-6 md:right-12 top-[44px] w-52 bg-[#3B5273] border border-white/10 shadow-2xl z-50"
               >
                 {offices.map((office, i) => (
                   <button
@@ -191,7 +191,7 @@ export default function PageLayout({ children }: { children: React.ReactNode }) 
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -8 }}
                       transition={{ duration: 0.15 }}
-                      className="absolute top-full left-0 min-w-[220px] bg-[#1B3E63] border-t-[3px] border-accent shadow-2xl z-50"
+                      className="absolute top-full left-0 min-w-[220px] bg-[#3B5273] border-t-[3px] border-accent shadow-2xl z-50"
                     >
                       {[
                         { label: "DGFT", href: "/dgft" },
@@ -222,7 +222,7 @@ export default function PageLayout({ children }: { children: React.ReactNode }) 
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -8 }}
                       transition={{ duration: 0.15 }}
-                      className="absolute top-full left-0 min-w-[280px] bg-[#1B3E63] border-t-[3px] border-accent shadow-2xl z-50"
+                      className="absolute top-full left-0 min-w-[280px] bg-[#3B5273] border-t-[3px] border-accent shadow-2xl z-50"
                     >
                       {[
                         { label: "DGFT", href: "/dgft" },
@@ -265,7 +265,7 @@ export default function PageLayout({ children }: { children: React.ReactNode }) 
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -8 }}
                       transition={{ duration: 0.15 }}
-                      className="absolute top-full right-0 min-w-[280px] bg-[#1B3E63] border-t-[3px] border-accent shadow-2xl z-50"
+                      className="absolute top-full right-0 min-w-[280px] bg-[#3B5273] border-t-[3px] border-accent shadow-2xl z-50"
                     >
                       {[
                         { label: "Request Ship Freight Quote", href: "/request-ship-freight-quote" },
