@@ -14,9 +14,9 @@ import { Button } from "@/components/ui/button";
 
 const offices = [
   { label: "Bengaluru Office", phone: "+91 9538876950", phoneDisplay: "+91 9538876950 (WhatsApp only)", hours: "Mon–Sat: 9AM–6PM" },
-  { label: "Chennai Head Office", phone: "+914425251314", phoneDisplay: "CALL FREE: +91-44-2525 1314 / 15 / 16 / 17 / 18", hours: "Mon–Sat: 9AM–6PM" },
+  { label: "Chennai Office", phone: "+914425251314", phoneDisplay: "CALL FREE: +91-44-2525 1314 / 15 / 16 / 17 / 18", hours: "Mon–Sat: 9AM–6PM" },
   { label: "Chennai Freight", phone: "+914447896568", phoneDisplay: "+91 44 4789 6568", hours: "Mon–Sat: 9AM–6PM" },
-  { label: "Tuticorin Office", phone: "+914612340790", phoneDisplay: "CALL FREE: +91-0461-2340790 / 91 / 92 / 93 / 94 / 95", hours: "Mon–Sat: 9AM–6PM" },
+  { label: "Tuticorin Head Office", phone: "+914612340790", phoneDisplay: "CALL FREE: +91-0461-2340790 / 91 / 92 / 93 / 94 / 95", hours: "Mon–Sat: 9AM–6PM" },
   { label: "Vietnam Office", phone: "+842862873031", phoneDisplay: "+84-28-62873031", hours: "Mon–Fri: 8AM–5PM · Sat: 8AM–12PM" },
   { label: "Gujarat Office", phone: "+919538876950", phoneDisplay: "+91 9538876950", hours: "Mon–Sat: 9AM–6PM" },
   { label: "Indonesia Office", phone: "+6281188060213", phoneDisplay: "+62 81188060213 / +91 9677794670", hours: "Mon–Sat: 9AM–6PM" },
@@ -24,7 +24,13 @@ const offices = [
 
 const footerOffices = [
   {
-    label: "Chennai — HQ",
+    label: "Tuticorin — HQ",
+    address: ["No. 3/188/5A, MSP Towers,", "Palayamkottai Main Road, Periyanayagapuram,", "Opp. Collector Office, Tuticorin – 628 101"],
+    phone: "+91-0461-2340790 / 91 / 92 / 93 / 94 / 95",
+    email: "info@islf.in",
+  },
+  {
+    label: "Chennai — Branch",
     address: ["Sudharsanam Tower, No.06 & 08,", "Coral Merchant Street, Mannady,", "Chennai 600001"],
     phone: "+91-44-2525 1314 / 15 / 16 / 17 / 18",
     email: "info@islf.in",
@@ -42,14 +48,8 @@ const footerOffices = [
     email: "info@islf.in",
   },
   {
-    label: "Tuticorin — Branch",
-    address: ["No. 3/188/5A, MSP Towers,", "Palayamkottai Main Road, Periyanayagapuram,", "Opp. Collector Office, Tuticorin – 628 101"],
-    phone: "+91-0461-2340790 / 91 / 92 / 93 / 94 / 95",
-    email: "info@islf.in",
-  },
-  {
     label: "Gujarat — Branch",
-    address: ["\u201cGold Coin\u201d No.202, Plot 321,", "Ward 12/B, Gandhidham,", "Kutch, Gujarat 370201"],
+    address: ["\u201cGold Coin\u201d No.202, Plot 321,", "Ward 12/B, Gandhidham,", "Kutch, Gujarat 370201 (Mundra Port \u0026 Kantla Port)"],
     phone: "+91 9538876950",
     email: "info@islf.in",
   },
@@ -144,7 +144,7 @@ export default function PageLayout({ children }: { children: React.ReactNode }) 
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -6 }}
                 transition={{ duration: 0.15 }}
-                className="absolute right-6 md:right-12 top-[44px] w-52 bg-[#0d1f38] border border-white/10 shadow-2xl z-50"
+                className="absolute right-6 md:right-12 top-[44px] w-52 bg-[#1B3E63] border border-white/10 shadow-2xl z-50"
               >
                 {offices.map((office, i) => (
                   <button
@@ -164,7 +164,7 @@ export default function PageLayout({ children }: { children: React.ReactNode }) 
         <nav className={`w-full transition-all duration-300 ${isScrolled ? "bg-primary/95 backdrop-blur-md shadow-2xl py-4" : "bg-primary py-5"}`}>
           <div className="container mx-auto px-6 md:px-12 grid grid-cols-[auto_1fr_auto] items-center gap-4">
             <Link href="/" className="flex items-center gap-4 bg-white p-2 rounded-sm">
-              <Image src="/logo.jpg" alt="ISLF Logo" width={96} height={48} priority className="h-10 md:h-12 object-contain" style={{ width: 'auto' }} />
+              <Image src="/logo.jpg" alt="ISLF Logo" width={128} height={64} priority className="h-14 md:h-16 object-contain" style={{ width: 'auto' }} />
             </Link>
 
             <div className="hidden lg:flex items-center justify-center gap-8 font-heading font-semibold text-base text-white">
@@ -191,13 +191,14 @@ export default function PageLayout({ children }: { children: React.ReactNode }) 
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -8 }}
                       transition={{ duration: 0.15 }}
-                      className="absolute top-full left-0 min-w-[220px] bg-[#0d1f38] border-t-[3px] border-accent shadow-2xl z-50"
+                      className="absolute top-full left-0 min-w-[220px] bg-[#1B3E63] border-t-[3px] border-accent shadow-2xl z-50"
                     >
                       {[
                         { label: "DGFT", href: "/dgft" },
-                        { label: "CHA", href: "/customs-broking" },
+                        { label: "Customs Broker", href: "/customs-broking" },
                         { label: "Freight Forwarding", href: "/freight-forwarding" },
                         { label: "Warehouse", href: "/warehousing" },
+                        { label: "Stevedoring", href: "/stevedoring" },
                       ].map((item) => (
                         <Link key={item.href} href={item.href} className="block px-8 py-4 text-white hover:text-accent hover:bg-white/5 transition-colors text-lg border-b border-white/5 last:border-0">
                           {item.label}
@@ -221,7 +222,7 @@ export default function PageLayout({ children }: { children: React.ReactNode }) 
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -8 }}
                       transition={{ duration: 0.15 }}
-                      className="absolute top-full left-0 min-w-[280px] bg-[#0d1f38] border-t-[3px] border-accent shadow-2xl z-50"
+                      className="absolute top-full left-0 min-w-[280px] bg-[#1B3E63] border-t-[3px] border-accent shadow-2xl z-50"
                     >
                       {[
                         { label: "DGFT", href: "/dgft" },
@@ -264,7 +265,7 @@ export default function PageLayout({ children }: { children: React.ReactNode }) 
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -8 }}
                       transition={{ duration: 0.15 }}
-                      className="absolute top-full right-0 min-w-[280px] bg-[#0d1f38] border-t-[3px] border-accent shadow-2xl z-50"
+                      className="absolute top-full right-0 min-w-[280px] bg-[#1B3E63] border-t-[3px] border-accent shadow-2xl z-50"
                     >
                       {[
                         { label: "Request Ship Freight Quote", href: "/request-ship-freight-quote" },
@@ -321,9 +322,10 @@ export default function PageLayout({ children }: { children: React.ReactNode }) 
                       <div className="bg-white/5 border-b border-white/5">
                         {[
                           { label: "DGFT", href: "/dgft" },
-                          { label: "CHA", href: "/customs-broking" },
+                          { label: "Customs Broker", href: "/customs-broking" },
                           { label: "Freight Forwarding", href: "/freight-forwarding" },
                           { label: "Warehouse", href: "/warehousing" },
+                        { label: "Stevedoring", href: "/stevedoring" },
                         ].map((item) => (
                           <Link key={item.href} href={item.href} className="flex items-center gap-2 pl-6 pr-4 py-3 text-white/60 hover:text-accent font-medium text-sm border-b border-white/5 last:border-0" onClick={() => setIsMobileMenuOpen(false)}>
                             <ChevronRight className="w-3 h-3 text-accent/60 shrink-0" aria-hidden="true" /> {item.label}
@@ -400,7 +402,7 @@ export default function PageLayout({ children }: { children: React.ReactNode }) 
 
       <main>{children}</main>
 
-      <footer className="bg-[#0A1628] text-white">
+      <footer className="bg-primary text-white">
         <div className="h-1 w-full bg-accent" />
         <div className="container mx-auto px-6 md:px-12 pt-16 pb-12">
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 pb-12 border-b border-white/10">

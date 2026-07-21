@@ -49,7 +49,7 @@ const jsonLd = [
     "alternateName": "ISLF",
     "foundingDate": "2000",
     "url": "https://islf.in",
-    "description": "AEO certified customs broker and freight forwarder in India, headquartered in Chennai with offices in Bangalore, Tuticorin, Gujarat, Ho Chi Minh City (Vietnam) and Jakarta (Indonesia).",
+    "description": "AEO certified customs broker and freight forwarder in India, headquartered in Tuticorin with offices in Chennai, Bangalore, Gujarat, Mumbai, Ho Chi Minh City (Vietnam) and Jakarta (Indonesia).",
     "hasCredential": {
       "@type": "EducationalOccupationalCredential",
       "credentialCategory": "AEO Certification",
@@ -63,7 +63,7 @@ export default function AboutPage() {
     <PageLayout>
       <SEOHead
         title="About ISLF | AEO Certified Customs Broker & Freight Forwarder | India"
-        description="Indian Shipping and Logistics Facility Pvt Ltd (ISLF) — India's AEO certified customs broker and freight forwarder since 2000. Chennai HQ with offices in Bangalore, Tuticorin, Gujarat & Vietnam. Learn our mission, vision and recognition."
+        description="Indian Shipping and Logistics Facility Pvt Ltd (ISLF) — India's AEO certified customs broker and freight forwarder since 2000. Tuticorin HQ with offices in Chennai, Bengaluru, Gujarat, Mumbai & Vietnam. Learn our mission, vision and recognition."
         canonical="https://islf.in/about"
         keywords="ISLF logistics India, Indian Shipping Logistics Facility, AEO certified customs broker India, customs broker Chennai, freight forwarder India, ISLF about, logistics company Chennai, EXIM company India"
         jsonLd={jsonLd}
@@ -118,7 +118,7 @@ export default function AboutPage() {
                 India's Trusted Logistics Partner
               </motion.h2>
               <motion.p variants={fadeUp} className="text-gray-600 leading-relaxed mb-5">
-                Indian Shipping and Logistics Facility Pvt Ltd is one of India's top logistics service providers and shipping companies, headquartered in Chennai with branch offices in Tuticorin, Bangalore, Gujarat and overseas branches at Ho Chi Minh City, Vietnam and Jakarta, Indonesia.
+                Indian Shipping and Logistics Facility Pvt Ltd is one of India's top logistics service providers and shipping companies, headquartered in Tuticorin with branch offices in Chennai, Bangalore, Gujarat, Mumbai and overseas branches at Ho Chi Minh City, Vietnam and Jakarta, Indonesia.
               </motion.p>
               <motion.p variants={fadeUp} className="text-gray-600 leading-relaxed mb-5">
                 Our associates in all major destinations in the world make our presence compelling as the logistics provider of choice in the Air and Sea shipping industry. We are committed to making global trade simple, compliant and efficient for our clients.
@@ -210,11 +210,11 @@ export default function AboutPage() {
           </motion.div>
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { city: "Chennai — Head Office", address: "Sudharsanam Tower, No.06 & 08, Coral Merchant Street, Mannady, Chennai 600001", phone: "+91-44-2525 1314 / 15 / 16 / 17 / 18" },
+              { city: "Tuticorin — Head Office", address: "No. 3/188/5A, MSP Towers, Palayamkottai Main Road, Periyanayagapuram, Opp. Collector Office, Tuticorin – 628 101, India", phone: "+91-0461-2340790 / 91 / 92 / 93 / 94 / 95" },
+              { city: "Chennai — Branch Office", address: "Sudharsanam Tower, No.06 & 08, Coral Merchant Street, Mannady, Chennai 600001", phone: "+91-44-2525 1314 / 15 / 16 / 17 / 18" },
               { city: "Chennai — Freight Forwarding", address: "Door No.2A, Zafrullah Towers, 2nd Floor, Angappan Street, Parrys Corner, Chennai 600001", phone: "+91 44 4789 6568" },
-              { city: "Tuticorin", address: "No. 3/188/5A, MSP Towers, Palayamkottai Main Road, Periyanayagapuram, Opp. Collector Office, Tuticorin – 628 101, India", phone: "+91-0461-2340790 / 91 / 92 / 93 / 94 / 95" },
               { city: "Bengaluru", address: "Flat 101, Saroj Regency, Site 3, MS Reddy Nagar, Marathahalli, Bengaluru 560037", phone: "+91 9538876950 (WhatsApp only)" },
-              { city: "Gujarat", address: '"Gold Coin" No.202, Plot 321, Ward 12/B, Gandhidham, Kutch, Gujarat 370201', phone: "+91 9538876950" },
+              { city: "Gujarat", address: '"Gold Coin" No.202, Plot 321, Ward 12/B, Gandhidham, Kutch, Gujarat 370201 (Mundra Port & Kantla Port)', phone: "+91 9538876950" },
               { city: "Vietnam (Overseas)", address: "L202-2nd floor, ARC REAL building, No.1, Nguyen Duy Street, Gia Dinh Ward, Ho Chi Minh City, Vietnam", phone: "+84-28-62873031" },
               { city: "Indonesia (Overseas)", address: "The Mansion Bougenville, Tower Fontana Zona, BF 31A1, JI. Trembesi Blok D, Kemayoran, Jakarta Utara, DKI Jakarta 14410", phone: "+62 81188060213 / +91 9677794670" },
             ].map((office, i) => (

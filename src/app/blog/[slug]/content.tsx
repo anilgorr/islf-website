@@ -15,7 +15,7 @@ const stagger = { hidden: {}, visible: { transition: { staggerChildren: 0.1 } } 
 const categoryColors: Record<string, string> = {
   Logistics: "bg-blue-100 text-blue-700",
   GST: "bg-purple-100 text-purple-700",
-  CHA: "bg-orange-100 text-orange-700",
+  "Customs Broker": "bg-orange-100 text-orange-700",
   "Freight Forwarding": "bg-emerald-100 text-emerald-700",
   DGFT: "bg-blue-100 text-blue-700",
   CFS: "bg-teal-100 text-teal-700",

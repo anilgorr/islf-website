@@ -26,16 +26,16 @@ const orgJsonLd = {
   url: "https://islf.in/",
   logo: "https://islf.in/logo.jpg",
   description:
-    "AEO certified customs broker, freight forwarder and EXIM consultant headquartered in Chennai with offices across India and Vietnam.",
+    "AEO certified customs broker, freight forwarder and EXIM consultant headquartered in Tuticorin with offices across India, Vietnam and Indonesia.",
   foundingDate: "2000",
   email: "info@islf.in",
-  telephone: "+914425251314",
+  telephone: "+914612340790",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Sudharsanam Tower, No.06 & 08, Coral Merchant Street, Mannady",
-    addressLocality: "Chennai",
+    streetAddress: "No. 3/188/5A, MSP Towers, Palayamkottai Main Road, Periyanayagapuram, Opp. Collector Office",
+    addressLocality: "Tuticorin",
     addressRegion: "Tamil Nadu",
-    postalCode: "600001",
+    postalCode: "628101",
     addressCountry: "IN",
   },
   areaServed: "IN",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     template: "%s",
   },
   description:
-    "ISLF (Indian Shipping and Logistics Facility Pvt Ltd) — AEO certified customs broker and freight forwarder with offices in Chennai, Bangalore, Tuticorin, Gujarat & Vietnam.",
+    "ISLF (Indian Shipping and Logistics Facility Pvt Ltd) — AEO certified customs broker and freight forwarder headquartered in Tuticorin with offices in Chennai, Bangalore, Gujarat & Vietnam.",
   keywords:
     "shipping company India, logistics company Chennai, customs broker India, freight forwarder Chennai, AEO certified customs broker",
   authors: [{ name: "Indian Shipping and Logistics Facility Pvt Ltd" }],

@@ -68,7 +68,7 @@ const jsonLd = [
         "name": "What does a licensed customs broker do in India?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "A licensed customs broker (CHA — Custom House Agent) in India facilitates importers and exporters in clearing goods through customs. They handle documentation (Bills of Entry, Shipping Bills), calculate and pay customs duties/GST, ensure regulatory compliance, liaise with customs authorities and coordinate with shipping lines and freight forwarders for timely delivery.",
+          "text": "A licensed customs broker (Customs Broker — Custom House Agent) in India facilitates importers and exporters in clearing goods through customs. They handle documentation (Bills of Entry, Shipping Bills), calculate and pay customs duties/GST, ensure regulatory compliance, liaise with customs authorities and coordinate with shipping lines and freight forwarders for timely delivery.",
         },
       },
       {
@@ -90,7 +90,7 @@ export default function CustomsBrokingPage() {
         title="Customs Broking India | AEO Certified Customs Clearance | Chennai | Tuticorin | ISLF"
         description="AEO certified customs broking by ISLF — import and export customs clearance, Bills of Entry, Shipping Bills, EPCG/DEEC/DFIA clearances, RoDTEP, duty drawback, BIS/LMPC/EPR certificates. Offices in Chennai, Tuticorin, Bengaluru, Gujarat."
         canonical="https://islf.in/customs-broking"
-        keywords="customs broker India, customs clearance India, customs broker Chennai, customs broker Tuticorin, AEO certified customs broker, import clearance India, export clearance India, customs agent India, CHA India, Bill of Entry filing, Shipping Bill India, EPCG clearance, duty drawback India"
+        keywords="customs broker India, customs clearance India, customs broker Chennai, customs broker Tuticorin, AEO certified customs broker, import clearance India, export clearance India, customs agent India, Customs Broker India, Bill of Entry filing, Shipping Bill India, EPCG clearance, duty drawback India"
         jsonLd={jsonLd}
       />
 

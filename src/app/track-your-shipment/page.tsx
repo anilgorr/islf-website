@@ -179,15 +179,15 @@ export default function TrackYourShipmentPage() {
                 <p className="font-heading font-semibold uppercase text-sm mb-4">ISLF Service Centers</p>
                 <div className="space-y-3 text-xs text-white/70">
                   <div>
-                    <p className="text-white font-semibold text-xs uppercase tracking-wide mb-0.5">Chennai Head Office</p>
-                    <a href="tel:+914425251314" className="flex items-center gap-1.5 hover:text-accent transition-colors">
-                      <Phone className="w-3 h-3 text-accent shrink-0" /> +91-44-2525 1314 – 18
+                    <p className="text-white font-semibold text-xs uppercase tracking-wide mb-0.5">Tuticorin Head Office</p>
+                    <a href="tel:+914612340790" className="flex items-center gap-1.5 hover:text-accent transition-colors">
+                      <Phone className="w-3 h-3 text-accent shrink-0" /> +91-0461-2340790 – 95
                     </a>
                   </div>
                   <div>
-                    <p className="text-white font-semibold text-xs uppercase tracking-wide mb-0.5">Tuticorin Office</p>
-                    <a href="tel:+914612340790" className="flex items-center gap-1.5 hover:text-accent transition-colors">
-                      <Phone className="w-3 h-3 text-accent shrink-0" /> +91-0461-2340790 – 95
+                    <p className="text-white font-semibold text-xs uppercase tracking-wide mb-0.5">Chennai Office</p>
+                    <a href="tel:+914425251314" className="flex items-center gap-1.5 hover:text-accent transition-colors">
+                      <Phone className="w-3 h-3 text-accent shrink-0" /> +91-44-2525 1314 – 18
                     </a>
                   </div>
                   <div>

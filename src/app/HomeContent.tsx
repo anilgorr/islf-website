@@ -79,7 +79,13 @@ export default function Home() {
 
   const footerOffices = [
     {
-      label: "Chennai — HQ",
+      label: "Tuticorin — HQ",
+      address: ["No. 3/188/5A, MSP Towers,", "Palayamkottai Main Road, Periyanayagapuram,", "Opp. Collector Office, Tuticorin – 628 101"],
+      phone: "+91-0461-2340790 / 91 / 92 / 93 / 94 / 95",
+      email: "info@islf.in",
+    },
+    {
+      label: "Chennai — Branch",
       address: ["Sudharsanam Tower, No.06 & 08,", "Coral Merchant Street, Mannady,", "Chennai 600001"],
       phone: "+91-44-2525 1314 / 15 / 16 / 17 / 18",
       email: "info@islf.in",
@@ -97,14 +103,8 @@ export default function Home() {
       email: "info@islf.in",
     },
     {
-      label: "Tuticorin — Branch",
-      address: ["No. 3/188/5A, MSP Towers,", "Palayamkottai Main Road, Periyanayagapuram,", "Opp. Collector Office, Tuticorin – 628 101"],
-      phone: "+91-0461-2340790 / 91 / 92 / 93 / 94 / 95",
-      email: "info@islf.in",
-    },
-    {
       label: "Gujarat — Branch",
-      address: ["\u201cGold Coin\u201d No.202, Plot 321,", "Ward 12/B, Gandhidham,", "Kutch, Gujarat 370201"],
+      address: ["\u201cGold Coin\u201d No.202, Plot 321,", "Ward 12/B, Gandhidham,", "Kutch, Gujarat 370201 (Mundra Port \u0026 Kantla Port)"],
       phone: "+91 9538876950",
       email: "info@islf.in",
     },
@@ -131,7 +131,7 @@ export default function Home() {
       contactIndex: 0,
     },
     {
-      label: "Chennai Head Office",
+      label: "Chennai Office",
       phone: "+914425251314",
       phoneDisplay: "CALL FREE: +91-44-2525 1314 / 15 / 16 / 17 / 18",
       hours: "Mon–Sat: 9AM–6PM",
@@ -145,7 +145,7 @@ export default function Home() {
       contactIndex: 2,
     },
     {
-      label: "Tuticorin Office",
+      label: "Tuticorin Head Office",
       phone: "+914612340790",
       phoneDisplay: "CALL FREE: +91-0461-2340790 / 91 / 92 / 93 / 94 / 95",
       hours: "Mon–Sat: 9AM–6PM",
@@ -254,7 +254,7 @@ export default function Home() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -6 }}
                 transition={{ duration: 0.15 }}
-                className="absolute right-6 md:right-12 top-[44px] w-52 bg-[#0d1f38] border border-white/10 shadow-2xl z-50"
+                className="absolute right-6 md:right-12 top-[44px] w-52 bg-[#1B3E63] border border-white/10 shadow-2xl z-50"
               >
                 {offices.map((office, i) => (
                   <button
@@ -282,7 +282,7 @@ export default function Home() {
         <nav className={`w-full transition-all duration-300 ${isScrolled ? "bg-primary/95 backdrop-blur-md shadow-2xl py-4" : "bg-primary py-5"}`}>
           <div className="container mx-auto px-6 md:px-12 grid grid-cols-[auto_1fr_auto] items-center gap-4">
             <Link href="/" className="flex items-center gap-4 bg-white p-2 rounded-sm" data-testid="link-home-logo">
-              <Image src="/logo.jpg" alt="ISLF Logo" width={96} height={48} className="h-10 md:h-12 object-contain" style={{ width: 'auto' }} />
+              <Image src="/logo.jpg" alt="ISLF Logo" width={128} height={64} className="h-14 md:h-16 object-contain" style={{ width: 'auto' }} />
             </Link>
 
             <div className="hidden lg:flex items-center justify-center gap-8 font-heading font-semibold text-base text-white">
@@ -290,6 +290,11 @@ export default function Home() {
                 Home
                 <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-accent transition-all duration-300 group-hover:w-full" />
               </a>
+
+              <Link href="/about" className="hover:text-accent transition-colors relative group py-2">
+                About
+                <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-accent transition-all duration-300 group-hover:w-full" />
+              </Link>
 
               {/* Services dropdown */}
               <div className="relative" onMouseEnter={() => setOpenDropdown("services")} onMouseLeave={() => setOpenDropdown(null)}>
@@ -304,13 +309,14 @@ export default function Home() {
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -8 }}
                       transition={{ duration: 0.15 }}
-                      className="absolute top-full left-0 min-w-[220px] bg-[#0d1f38] border-t-[3px] border-accent shadow-2xl z-50"
+                      className="absolute top-full left-0 min-w-[220px] bg-[#1B3E63] border-t-[3px] border-accent shadow-2xl z-50"
                     >
                       {[
                         { label: "DGFT", href: "/dgft" },
-                        { label: "CHA", href: "/customs-broking" },
+                        { label: "Customs Broker", href: "/customs-broking" },
                         { label: "Freight Forwarding", href: "/freight-forwarding" },
                         { label: "Warehouse", href: "/warehousing" },
+                        { label: "Stevedoring", href: "/stevedoring" },
                       ].map((item) => (
                         <Link key={item.href} href={item.href} className="block px-8 py-4 text-white hover:text-accent hover:bg-white/5 transition-colors text-lg border-b border-white/5 last:border-0">
                           {item.label}
@@ -334,7 +340,7 @@ export default function Home() {
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -8 }}
                       transition={{ duration: 0.15 }}
-                      className="absolute top-full left-0 min-w-[280px] bg-[#0d1f38] border-t-[3px] border-accent shadow-2xl z-50"
+                      className="absolute top-full left-0 min-w-[280px] bg-[#1B3E63] border-t-[3px] border-accent shadow-2xl z-50"
                     >
                       {[
                         { label: "DGFT", href: "/dgft" },
@@ -380,7 +386,7 @@ export default function Home() {
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -8 }}
                       transition={{ duration: 0.15 }}
-                      className="absolute top-full right-0 min-w-[280px] bg-[#0d1f38] border-t-[3px] border-accent shadow-2xl z-50"
+                      className="absolute top-full right-0 min-w-[280px] bg-[#1B3E63] border-t-[3px] border-accent shadow-2xl z-50"
                     >
                       {[
                         { label: "Request Ship Freight Quote", href: "/sea-freight" },
@@ -419,6 +425,10 @@ export default function Home() {
                   Home <ChevronRight className="w-4 h-4 text-accent" />
                 </a>
 
+                <Link href="/about" className="hover:text-accent border-b border-white/10 py-4 flex items-center justify-between" onClick={() => setIsMobileMenuOpen(false)}>
+                  About <ChevronRight className="w-4 h-4 text-accent" />
+                </Link>
+
                 {/* Services accordion */}
                 <div>
                   <button
@@ -431,9 +441,10 @@ export default function Home() {
                     <div className="bg-white/5 border-b border-white/10">
                       {[
                         { label: "DGFT", href: "/dgft" },
-                        { label: "CHA", href: "/customs-broking" },
+                        { label: "Customs Broker", href: "/customs-broking" },
                         { label: "Freight Forwarding", href: "/freight-forwarding" },
                         { label: "Warehouse", href: "/warehousing" },
+                        { label: "Stevedoring", href: "/stevedoring" },
                       ].map((item) => (
                         <Link key={item.href} href={item.href} className="flex items-center gap-2 pl-6 pr-4 py-3 text-white/70 hover:text-accent text-base border-b border-white/5 last:border-0" onClick={() => setIsMobileMenuOpen(false)}>
                           <ChevronRight className="w-3 h-3 text-accent/60 shrink-0" aria-hidden="true" /> {item.label}
@@ -551,13 +562,13 @@ export default function Home() {
             </m.div>
             
             <m.h1 variants={slideInLeft} className="text-4xl md:text-6xl lg:text-7xl font-heading font-semibold text-white leading-tight mb-8 uppercase">
-              Delivery <br/>
-              through <span className="text-transparent" style={{ WebkitTextStroke: '2px var(--color-accent)' }}>Oceanic</span> <br/>
-              & <span className="text-accent">Troposphere</span>
+              First AEO Certified <br/>
+              <span className="text-transparent" style={{ WebkitTextStroke: '2px var(--color-accent)' }}>Customs Broker</span> <br/>
+              from <span className="text-accent">Tuticorin</span>
             </m.h1>
             
             <m.p variants={slideInLeft} className="text-lg md:text-xl text-white/80 font-medium max-w-2xl leading-relaxed mb-10 border-l-4 border-accent pl-6">
-              AEO certified customs broker and freight forwarder — delivering seamless ocean, air and road logistics for importers and exporters across India and worldwide since 2000.
+              We are the first AEO certified customs broker from Tuticorin — delivering seamless ocean, air and road logistics for importers and exporters across India and worldwide.
             </m.p>
             
             <m.div variants={slideInLeft} className="flex flex-wrap gap-4">
@@ -648,7 +659,7 @@ export default function Home() {
               </m.h2>
               
               <m.p variants={slideInLeft} className="text-muted-foreground text-lg font-medium leading-relaxed mb-8">
-                Indian Shipping and Logistics Facility Pvt Ltd. — one of India's top logistics service providers, headquartered in Chennai with branch offices in Tuticorin, Bengaluru, Gujarat and an overseas branch at Ho Chi Minh City, Vietnam.
+                Indian Shipping and Logistics Facility Pvt Ltd. — one of India's top logistics service providers, headquartered in Tuticorin with branch offices in Chennai, Bengaluru, Gujarat and Mumbai, and overseas branches at Ho Chi Minh City, Vietnam and Jakarta, Indonesia.
               </m.p>
               
               <m.div variants={slideInLeft} className="bg-secondary p-8 mb-10 border-l-4 border-accent">
@@ -915,7 +926,7 @@ export default function Home() {
           },
           {
             city: "Chennai",
-            country: "Head Office",
+            country: "Branch Office",
             address: "\"Sudharsanam Tower\" No.06 & 08, Old No 176, 3rd Floor, Coral Merchant Street, Mannady, Chennai – 600 001",
             phone: "+91-44-2525 1314",
             email: "info@islf.in",
@@ -931,7 +942,7 @@ export default function Home() {
           },
           {
             city: "Tuticorin",
-            country: "India",
+            country: "Head Office",
             address: "No. 3/188/5A, MSP Towers, Palayamkottai Main Road, Periyanayagapuram, Opp. Collector Office, Tuticorin – 628 101, India",
             phone: "+91-0461-2340790 / 91 / 92 / 93 / 94 / 95",
             email: "info@islf.in",
@@ -948,7 +959,7 @@ export default function Home() {
           {
             city: "Gujarat",
             country: "India",
-            address: '"Gold Coin" No.202, Second Floor, Plot No.321, Ward 12/B, Gandhidham, Kutch, Gujarat 370201',
+            address: '"Gold Coin" No.202, Second Floor, Plot No.321, Ward 12/B, Gandhidham, Kutch, Gujarat 370201 (Mundra Port & Kantla Port)',
             phone: "+91 9538876950",
             email: "info@islf.in",
             mapSrc: "https://maps.google.com/maps?q=Gandhidham,+Kutch,+Gujarat+370201&t=&z=13&ie=UTF8&iwloc=&output=embed"
@@ -987,7 +998,7 @@ export default function Home() {
             {/* Split panel */}
             <div className="flex flex-col lg:flex-row min-h-[520px]">
               {/* Left — location selector */}
-              <div className="lg:w-[340px] shrink-0 bg-[#0A1628] flex flex-col">
+              <div className="lg:w-[340px] shrink-0 bg-primary flex flex-col">
                 {locations.map((l, i) => (
                   <button
                     key={i}
@@ -1082,7 +1093,7 @@ export default function Home() {
       })()}
 
       {/* 11. Footer */}
-      <footer id="contacts" className="bg-[#0A1628] text-white">
+      <footer id="contacts" className="bg-primary text-white">
         {/* Top accent bar */}
         <div className="h-1 w-full bg-accent" />
 

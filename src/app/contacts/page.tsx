@@ -10,14 +10,16 @@ const fadeUp = { hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0, tra
 const stagger = { hidden: {}, visible: { transition: { staggerChildren: 0.08 } } };
 
 const branches = [
-  "Bengaluru Office",
-  "Chennai Head Office",
+  "Tuticorin Head Office",
+  "Chennai Office",
   "Chennai Freight Forwarding",
-  "Tuticorin Office",
+  "Bengaluru Office",
   "Vietnam Office",
   "Gujarat Office",
   "Indonesia Office",
 ];
+
+const enquiryOptions = ["Freight", "Customs Broker", "Other services"];
 
 const locations = [
   {
@@ -30,7 +32,7 @@ const locations = [
   },
   {
     city: "Chennai",
-    label: "Head Office",
+    label: "Branch Office",
     address: '"Sudharsanam Tower" No.06 & 08, Old No 176, 3rd Floor, Coral Merchant Street, Mannady, Chennai – 600 001',
     phone: "+91-44-2525 1314 / 15 / 16 / 17 / 18",
     email: "info@islf.in",
@@ -46,7 +48,7 @@ const locations = [
   },
   {
     city: "Tuticorin",
-    label: "India",
+    label: "Head Office",
     address: "No. 3/188/5A, MSP Towers, Palayamkottai Main Road, Periyanayagapuram, Opp. Collector Office, Tuticorin – 628 101, India",
     phone: "+91-0461-2340790 / 91 / 92 / 93 / 94 / 95",
     email: "info@islf.in",
@@ -63,7 +65,7 @@ const locations = [
   {
     city: "Gujarat",
     label: "India",
-    address: '"Gold Coin" No.202, Second Floor, Plot No.321, Ward 12/B, Gandhidham, Kutch, Gujarat 370201',
+    address: '"Gold Coin" No.202, Second Floor, Plot No.321, Ward 12/B, Gandhidham, Kutch, Gujarat 370201 (Mundra Port & Kantla Port)',
     phone: "+91 9538876950",
     email: "info@islf.in",
     mapSrc: "https://maps.google.com/maps?q=Gandhidham,+Kutch,+Gujarat+370201&t=&z=13&ie=UTF8&iwloc=&output=embed",
@@ -202,7 +204,7 @@ export default function ContactsPage() {
                   </div>
                   <div>
                     <p className="text-xs font-bold uppercase tracking-widest text-primary mb-0.5">Head Office</p>
-                    <p className="text-gray-600 text-sm leading-relaxed">Sudharsanam Tower, Coral Merchant Street, Mannady, Chennai 600001</p>
+                    <p className="text-gray-600 text-sm leading-relaxed">No. 3/188/5A, MSP Towers, Palayamkottai Main Road, Periyanayagapuram, Opp. Collector Office, Tuticorin – 628 101</p>
                   </div>
                 </motion.div>
               </motion.div>
@@ -328,15 +330,18 @@ export default function ContactsPage() {
                   <div className="border border-t-0 border-gray-100 p-6 grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
                       <label htmlFor="enquiryFor" className="block text-xs font-bold uppercase tracking-widest text-primary mb-1.5">Enquiry For</label>
-                      <input
+                      <select
                         id="enquiryFor"
                         name="enquiryFor"
-                        type="text"
                         value={form.enquiryFor}
                         onChange={handleChange}
-                        placeholder="e.g. Customs Broking, DGFT..."
-                        className="w-full border border-gray-200 px-4 py-2.5 text-sm text-gray-800 placeholder:text-gray-400 focus:outline-none focus:border-accent transition-colors"
-                      />
+                        className="w-full border border-gray-200 px-4 py-2.5 text-sm text-gray-800 focus:outline-none focus:border-accent transition-colors bg-white"
+                      >
+                        <option value="">— Select —</option>
+                        {enquiryOptions.map((o) => (
+                          <option key={o} value={o}>{o}</option>
+                        ))}
+                      </select>
                     </div>
                     <div>
                       <label htmlFor="details" className="block text-xs font-bold uppercase tracking-widest text-primary mb-1.5">Details <span className="text-accent">*</span></label>
@@ -399,7 +404,7 @@ export default function ContactsPage() {
 
         <div className="flex flex-col lg:flex-row min-h-[520px]">
           {/* Left — location selector */}
-          <div className="lg:w-[340px] shrink-0 bg-[#0A1628] flex flex-col">
+          <div className="lg:w-[340px] shrink-0 bg-primary flex flex-col">
             {locations.map((l, i) => (
               <button
                 key={i}
