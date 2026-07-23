@@ -24,7 +24,7 @@ const orgJsonLd = {
   name: "Indian Shipping and Logistics Facility Pvt Ltd",
   alternateName: "ISLF",
   url: "https://islf.in/",
-  logo: "https://islf.in/logo.jpg",
+  logo: "https://islf.in/logo.png",
   description:
     "AEO certified customs broker, freight forwarder and EXIM consultant headquartered in Tuticorin with offices across India, Vietnam and Indonesia.",
   foundingDate: "2000",

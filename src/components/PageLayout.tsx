@@ -163,8 +163,8 @@ export default function PageLayout({ children }: { children: React.ReactNode }) 
         {/* Nav */}
         <nav className={`w-full transition-all duration-300 ${isScrolled ? "bg-primary/95 backdrop-blur-md shadow-2xl py-4" : "bg-primary py-5"}`}>
           <div className="container mx-auto px-6 md:px-12 grid grid-cols-[auto_1fr_auto] items-center gap-4">
-            <Link href="/" className="flex items-center gap-4 bg-white p-2 rounded-sm">
-              <Image src="/logo.jpg" alt="ISLF Logo" width={128} height={64} priority className="h-14 md:h-16 object-contain" style={{ width: 'auto' }} />
+            <Link href="/" className="flex items-center gap-4">
+              <Image src="/logo.png" alt="ISLF Logo" width={128} height={64} priority className="h-14 md:h-16 object-contain" style={{ width: 'auto' }} />
             </Link>
 
             <div className="hidden lg:flex items-center justify-center gap-8 font-heading font-semibold text-base text-white">
@@ -407,8 +407,8 @@ export default function PageLayout({ children }: { children: React.ReactNode }) 
         <div className="container mx-auto px-6 md:px-12 pt-16 pb-12">
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 pb-12 border-b border-white/10">
             <div>
-              <div className="bg-white inline-block p-2 rounded-sm mb-4">
-                <Image src="/logo.jpg" alt="ISLF Logo" width={96} height={48} className="h-12 object-contain" style={{ width: 'auto' }} />
+              <div className="inline-block mb-4">
+                <Image src="/logo.png" alt="ISLF Logo" width={96} height={48} className="h-12 object-contain" style={{ width: 'auto' }} />
               </div>
               <p className="text-white/60 max-w-xs text-sm leading-relaxed">
                 India&apos;s trusted freight partner — AEO certified, two decades of excellence across ocean, air, and road.
